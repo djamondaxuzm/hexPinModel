@@ -1,0 +1,292 @@
+Job started on p-sc-2443 at Sun Dec 14 19:32:07 EST 2025
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cuda/11.5.0
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cuda/11.5.0
+
+
+The following have been reloaded with a version change:
+  1) gcc/13.2.0 => gcc/9.1.0
+
+/storage/work/vai5027/.conda/envs/openmc-env1/lib/python3.11/site-packages/openmc/model/funcs.py:124: FutureWarning: The hexagonal_prism(...) function has been replaced by the HexagonalPrism(...) class. Future versions of OpenMC will not accept hexagonal_prism.
+  warn("The hexagonal_prism(...) function has been replaced by the "
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2025 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.15.3
+     Commit Hash | 27e38e894697bb32a1dac7848d2618818b6b8daf
+       Date/Time | 2025-12-14 19:32:14
+   MPI Processes | 1
+  OpenMP Threads | 24
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading U235 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/U235.h5
+ Reading U238 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/U238.h5
+ Reading O16 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/O16.h5
+ Reading Zr90 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Zr90.h5
+ Reading Zr91 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Zr91.h5
+ Reading Zr92 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Zr92.h5
+ Reading Zr94 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Zr94.h5
+ Reading Zr96 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Zr96.h5
+ WARNING: Negative value(s) found on probability table for nuclide Zr96 at 294K
+ Reading Sn112 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Sn112.h5
+ Reading Sn114 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Sn114.h5
+ Reading Sn115 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Sn115.h5
+ Reading Sn116 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Sn116.h5
+ Reading Sn117 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Sn117.h5
+ Reading Sn118 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Sn118.h5
+ Reading Sn119 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Sn119.h5
+ Reading Sn120 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Sn120.h5
+ Reading Sn122 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Sn122.h5
+ Reading Sn124 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Sn124.h5
+ Reading Fe54 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Fe54.h5
+ Reading Fe56 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Fe56.h5
+ Reading Fe57 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Fe57.h5
+ Reading Fe58 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Fe58.h5
+ Reading Cr50 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Cr50.h5
+ Reading Cr52 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Cr52.h5
+ Reading Cr53 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Cr53.h5
+ Reading Cr54 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Cr54.h5
+ Reading O17 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/O17.h5
+ Reading O18 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/O18.h5
+ Reading Hf174 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Hf174.h5
+ Reading Hf176 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Hf176.h5
+ Reading Hf177 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Hf177.h5
+ Reading Hf178 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Hf178.h5
+ Reading Hf179 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Hf179.h5
+ Reading Hf180 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Hf180.h5
+ Reading H1 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/H1.h5
+ Reading H2 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/H2.h5
+ Reading B10 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/B10.h5
+ Reading B11 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/B11.h5
+ Reading C12 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/C12.h5
+ Reading Ni58 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Ni58.h5
+ Reading Ni60 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Ni60.h5
+ Reading Ni61 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Ni61.h5
+ Reading Ni62 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Ni62.h5
+ Reading Ni64 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Ni64.h5
+ Reading Mn55 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/Mn55.h5
+ Reading C13 from /storage/work/vai5027/NUCE403/endfb-viii/neutron/C13.h5
+ Reading c_H_in_H2O from
+ /storage/work/vai5027/NUCE403/endfb-viii/neutron/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 294 K
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for Zr90
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    1.08589
+        2/1    1.08490
+        3/1    1.09765
+        4/1    1.07078
+        5/1    1.08427
+        6/1    1.07805
+        7/1    1.07477
+        8/1    1.06834
+        9/1    1.08251
+       10/1    1.06222
+       11/1    1.07029
+       12/1    1.08571
+       13/1    1.04097
+       14/1    1.05482
+       15/1    1.05526
+       16/1    1.07934
+       17/1    1.03478
+       18/1    1.03169
+       19/1    1.06809
+       20/1    1.05623
+       21/1    1.04933
+       22/1    1.05370
+       23/1    1.08314
+       24/1    1.04582
+       25/1    1.05503
+       26/1    1.04629
+       27/1    1.02878
+       28/1    1.04428
+       29/1    1.05107
+       30/1    1.03354
+       31/1    1.06040
+       32/1    1.02584    1.04312 +/- 0.01728
+       33/1    1.02849    1.03824 +/- 0.01110
+       34/1    1.05713    1.04296 +/- 0.00916
+       35/1    1.03738    1.04185 +/- 0.00718
+       36/1    1.05252    1.04362 +/- 0.00613
+       37/1    1.02041    1.04031 +/- 0.00615
+       38/1    1.02625    1.03855 +/- 0.00561
+       39/1    1.03482    1.03814 +/- 0.00496
+       40/1    1.02534    1.03686 +/- 0.00462
+       41/1    1.04045    1.03718 +/- 0.00419
+       42/1    1.05009    1.03826 +/- 0.00398
+       43/1    1.04284    1.03861 +/- 0.00367
+       44/1    1.05855    1.04004 +/- 0.00369
+       45/1    1.03809    1.03991 +/- 0.00344
+       46/1    1.06200    1.04129 +/- 0.00350
+       47/1    1.03171    1.04072 +/- 0.00333
+       48/1    1.04927    1.04120 +/- 0.00318
+       49/1    1.04815    1.04156 +/- 0.00303
+       50/1    1.04243    1.04161 +/- 0.00287
+       51/1    1.03749    1.04141 +/- 0.00274
+       52/1    1.08928    1.04359 +/- 0.00340
+       53/1    1.05209    1.04396 +/- 0.00327
+       54/1    1.06645    1.04489 +/- 0.00327
+       55/1    1.04556    1.04492 +/- 0.00313
+       56/1    1.05747    1.04540 +/- 0.00305
+       57/1    1.05450    1.04574 +/- 0.00295
+       58/1    1.03418    1.04533 +/- 0.00288
+       59/1    1.03704    1.04504 +/- 0.00279
+       60/1    1.01716    1.04411 +/- 0.00285
+       61/1    1.05495    1.04446 +/- 0.00278
+       62/1    1.03278    1.04410 +/- 0.00272
+       63/1    1.03535    1.04383 +/- 0.00265
+       64/1    1.04383    1.04383 +/- 0.00257
+       65/1    1.03732    1.04365 +/- 0.00250
+       66/1    1.04202    1.04360 +/- 0.00243
+       67/1    1.03683    1.04342 +/- 0.00237
+       68/1    1.05542    1.04373 +/- 0.00233
+       69/1    1.05167    1.04394 +/- 0.00228
+       70/1    1.02869    1.04356 +/- 0.00225
+       71/1    1.04555    1.04360 +/- 0.00220
+       72/1    1.04388    1.04361 +/- 0.00214
+       73/1    1.03101    1.04332 +/- 0.00211
+       74/1    1.04266    1.04330 +/- 0.00207
+       75/1    1.03592    1.04314 +/- 0.00203
+       76/1    1.02408    1.04272 +/- 0.00202
+       77/1    1.03157    1.04249 +/- 0.00199
+       78/1    1.04281    1.04249 +/- 0.00195
+       79/1    1.03512    1.04234 +/- 0.00192
+       80/1    1.04835    1.04246 +/- 0.00188
+       81/1    1.02956    1.04221 +/- 0.00186
+       82/1    1.05019    1.04236 +/- 0.00183
+       83/1    1.05059    1.04252 +/- 0.00181
+       84/1    1.02171    1.04213 +/- 0.00181
+       85/1    1.05260    1.04232 +/- 0.00179
+       86/1    1.05146    1.04249 +/- 0.00177
+       87/1    1.05105    1.04264 +/- 0.00174
+       88/1    1.03976    1.04259 +/- 0.00171
+       89/1    1.04207    1.04258 +/- 0.00168
+       90/1    1.04120    1.04256 +/- 0.00165
+       91/1    1.06089    1.04286 +/- 0.00165
+       92/1    1.06393    1.04320 +/- 0.00166
+       93/1    1.02590    1.04292 +/- 0.00166
+       94/1    1.01694    1.04252 +/- 0.00168
+       95/1    1.03995    1.04248 +/- 0.00166
+       96/1    1.05014    1.04259 +/- 0.00164
+       97/1    1.02102    1.04227 +/- 0.00164
+       98/1    1.05378    1.04244 +/- 0.00163
+       99/1    1.03540    1.04234 +/- 0.00161
+      100/1    1.01748    1.04198 +/- 0.00162
+      101/1    1.04056    1.04196 +/- 0.00160
+      102/1    1.06323    1.04226 +/- 0.00160
+      103/1    1.06366    1.04255 +/- 0.00161
+      104/1    1.03542    1.04246 +/- 0.00159
+      105/1    1.05830    1.04267 +/- 0.00158
+      106/1    1.03195    1.04253 +/- 0.00157
+      107/1    1.03082    1.04237 +/- 0.00156
+      108/1    1.03469    1.04227 +/- 0.00154
+      109/1    1.04903    1.04236 +/- 0.00152
+      110/1    1.05810    1.04256 +/- 0.00152
+      111/1    1.03889    1.04251 +/- 0.00150
+      112/1    1.04269    1.04251 +/- 0.00148
+      113/1    1.01635    1.04220 +/- 0.00149
+      114/1    1.04168    1.04219 +/- 0.00148
+      115/1    1.02421    1.04198 +/- 0.00147
+      116/1    1.04089    1.04197 +/- 0.00146
+      117/1    1.02786    1.04181 +/- 0.00145
+      118/1    1.04711    1.04187 +/- 0.00143
+      119/1    1.06415    1.04212 +/- 0.00144
+      120/1    1.03644    1.04205 +/- 0.00143
+      121/1    1.03969    1.04203 +/- 0.00141
+      122/1    1.03998    1.04201 +/- 0.00139
+      123/1    1.04831    1.04207 +/- 0.00138
+      124/1    1.07031    1.04237 +/- 0.00140
+      125/1    1.05977    1.04256 +/- 0.00140
+      126/1    1.04423    1.04257 +/- 0.00138
+      127/1    1.05123    1.04266 +/- 0.00137
+      128/1    1.03540    1.04259 +/- 0.00136
+      129/1    1.03729    1.04254 +/- 0.00135
+      130/1    1.03650    1.04248 +/- 0.00133
+      131/1    1.03522    1.04240 +/- 0.00132
+      132/1    1.02802    1.04226 +/- 0.00132
+      133/1    1.03662    1.04221 +/- 0.00130
+      134/1    1.05319    1.04231 +/- 0.00130
+      135/1    1.02320    1.04213 +/- 0.00130
+      136/1    1.02718    1.04199 +/- 0.00129
+      137/1    1.03640    1.04194 +/- 0.00128
+      138/1    1.02822    1.04181 +/- 0.00128
+      139/1    1.01963    1.04161 +/- 0.00128
+      140/1    1.03708    1.04157 +/- 0.00127
+      141/1    1.04733    1.04162 +/- 0.00126
+      142/1    1.04941    1.04169 +/- 0.00125
+      143/1    1.03636    1.04164 +/- 0.00124
+      144/1    1.06875    1.04188 +/- 0.00125
+      145/1    1.03948    1.04186 +/- 0.00124
+      146/1    1.06227    1.04203 +/- 0.00124
+      147/1    1.02758    1.04191 +/- 0.00124
+      148/1    1.05432    1.04202 +/- 0.00123
+      149/1    1.05017    1.04208 +/- 0.00122
+      150/1    1.02978    1.04198 +/- 0.00122
+ Creating state point statepoint.150.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 1.6474e+01 seconds
+   Reading cross sections          = 1.6130e+01 seconds
+ Total time in simulation          = 9.0412e+00 seconds
+   Time in transport only          = 8.8210e+00 seconds
+   Time in inactive batches        = 1.7993e+00 seconds
+   Time in active batches          = 7.2419e+00 seconds
+   Time synchronizing fission bank = 1.0079e-01 seconds
+     Sampling source sites         = 7.6360e-02 seconds
+     SEND/RECV source sites        = 2.3192e-02 seconds
+   Time accumulating tallies       = 5.0249e-05 seconds
+   Time writing statepoints        = 6.4880e-02 seconds
+ Total time for finalization       = 1.0240e-06 seconds
+ Total time elapsed                = 2.5547e+01 seconds
+ Calculation Rate (inactive)       = 166731 particles/second
+ Calculation Rate (active)         = 165702 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.04168 +/- 0.00100
+ k-effective (Track-length)  = 1.04198 +/- 0.00122
+ k-effective (Absorption)    = 1.04129 +/- 0.00090
+ Combined k-effective        = 1.04152 +/- 0.00075
+ Leakage Fraction            = 0.00622 +/- 0.00008
+
+Job ended on p-sc-2443 at Sun Dec 14 19:32:40 EST 2025
